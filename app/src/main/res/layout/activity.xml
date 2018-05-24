@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="冷飲訂購"
+        android:textSize="100px"
+        android:layout_margin="150px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+
+    <Spinner
+        android:id="@+id/spn"
+        android:layout_width="800px"
+        android:layout_height="fill_parent"
+        android:textSize="100px"
+        android:gravity="top"
+        android:entries="@+array/spn_list"
+        android:spinnerMode="dialog"
+        android:prompt="@+string/title"/>
+
+        <TextView
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="杯數:"
+            android:textSize="100px" />
+        <TextView
+            android:id="@+id/txt_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text=""
+            android:textSize="100px" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="600px"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="總價:"
+        android:textSize="100px"
+        android:layout_margin="50px" />
+    <TextView
+        android:id="@+id/txt_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="100px"
+        android:layout_margin="50px" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="180px"
+            android:layout_height="180px"
+            android:layout_marginTop="60px"
+            android:text="+"
+            android:textSize="70px"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtn"
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
+            android:gravity="center"
+            android:text=""
+            android:textSize="100px" />
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="180px"
+            android:layout_height="180px"
+            android:layout_marginTop="60px"
+            android:text="-"
+            android:textSize="70px"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100px" />
+    <Button
+        android:id="@+id/btn_o"
+        android:layout_width="300px"
+        android:layout_height="180px"
+        android:layout_marginTop="60px"
+        android:text="訂購"
+        android:textSize="70px"
+        tools:ignore="PxUsage" />
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:gravity="center"
+        android:text=""
+        android:textSize="100px" />
+
+
+
+
+</LinearLayout>

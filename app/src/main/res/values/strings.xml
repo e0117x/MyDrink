@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyDrink</string>
+<string name="title"></string>
+<string-array name="spn_list">
+    <item>紅茶</item>
+    <item>綠茶</item>
+    <item>奶茶</item>
+    <item>花茶</item>
+    <item>西瓜汁</item>
+</string-array>
+
+</resources>
